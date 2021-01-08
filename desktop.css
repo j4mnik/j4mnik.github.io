@@ -1,0 +1,163 @@
+body {
+    
+    font-family: Helvetica;
+    font-weight: lighter;
+    background-color: #262626;
+    color:white;
+    margin: auto, auto, auto, auto;
+    float: right;
+    
+  }
+
+  ::selection {
+    color:#364f6b;
+    background: #f5f5f5;
+  }
+  
+header {
+    color: white;
+    text-align: center;
+    background-image: url('zdjecia/desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    padding: 120px;
+    margin-bottom: 60px;
+    
+  }
+
+p {
+  margin-top: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  text-align: center;
+
+  
+}
+
+.tlo {
+  color: #353535;
+  background-color: #dddddd;
+  padding: 10px;
+}
+
+nav
+  {
+  background-color:#343434;
+	text-align: center;
+}
+
+.menu
+{
+  list-style-type: none;
+	margin: 0;
+	padding: 8px;
+	font-size: 14px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{   
+    
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.wstep
+{
+    margin: 20px;
+    margin-top: 120px;
+    display: inline-block;
+    padding: 40px;
+    background-color: #1c2021;
+    ;
+  }
+
+  h2
+  {
+    font-weight: 700 ;
+    font-size: 30px;
+  }
+
+  h3
+  {
+    font-weight: lighter ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+
+  h4
+  {
+    font-family: Helvetica;
+    font-weight: 100;
+    margin-bottom: 60px;
+  }
+h5
+{
+  font-family: sans-serif;
+  color:aliceblue;
+  font-size: 12px;
+  text-align: right;
+}
+
+img{
+  float: left;
+  margin-right: 40px;
+  width: 600px;
+  height: 338px;
+}
+
+.stopka
+{
+  margin-top: 100px;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  background-color: #171717;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+  .button {
+    background-color: #30475e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+/* visited link */
+a:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #03b150;
+  text-decoration: none;
+}
+
+
+a:active {
+  color: whitesmoke;
+  text-decoration: none;
+}
